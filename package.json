@@ -1,0 +1,20 @@
+{
+  "name": "ipa-check",
+  "version": "0.1.0",
+  "description": "Audit an iOS .ipa for common App Store submission pitfalls — dependency-free.",
+  "type": "module",
+  "bin": {
+    "ipa-check": "bin/ipa-check.mjs"
+  },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["ios", "ipa", "app-store", "submission", "testflight", "release", "react-native", "expo"],
+  "repository": { "type": "git", "url": "git+https://github.com/nwebersoftware/ipa-check.git" },
+  "homepage": "https://github.com/nwebersoftware/ipa-check#readme",
+  "bugs": { "url": "https://github.com/nwebersoftware/ipa-check/issues" },
+  "author": "Boolean Build (a Boolean Bros project)",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
