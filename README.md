@@ -13,8 +13,8 @@ gaps, and more.
 ## Usage
 
 ```bash
-npx github:nwebersoftware/ipa-check ./build/YourApp.ipa
-npx github:nwebersoftware/ipa-check ./YourApp.ipa --bundle-id com.example.yourapp
+npx @njweber/ipa-check ./build/YourApp.ipa
+npx @njweber/ipa-check ./YourApp.ipa --bundle-id com.example.yourapp
 ```
 
 ```
@@ -50,7 +50,7 @@ Exit codes: `0` ok (warnings allowed) · `1` blocking issue · `2` bad input.
 ## CI
 
 ```yaml
-- run: npx github:nwebersoftware/ipa-check ./build/YourApp.ipa
+- run: npx @njweber/ipa-check ./build/YourApp.ipa
 ```
 
 ## Sibling

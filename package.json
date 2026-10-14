@@ -1,5 +1,5 @@
 {
-  "name": "ipa-check",
+  "name": "@njweber/ipa-check",
   "version": "0.1.0",
   "description": "Audit an iOS .ipa for common App Store submission pitfalls — dependency-free.",
   "type": "module",
