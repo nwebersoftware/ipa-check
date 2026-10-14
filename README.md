@@ -60,6 +60,15 @@ Google Play 16 KB page-size requirement).
 
 More notes: <https://booleanbuild.com>.
 
+## GitHub Action
+
+```yaml
+- uses: nwebersoftware/ipa-check@main
+  with:
+    path: build/YourApp.ipa
+    # bundle-id: com.example.yourapp
+```
+
 ## License
 
 MIT.

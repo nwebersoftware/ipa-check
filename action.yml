@@ -1,0 +1,22 @@
+name: ipa-check
+description: Audit an iOS .ipa for common App Store submission pitfalls.
+branding:
+  icon: check-circle
+  color: blue
+
+inputs:
+  path:
+    description: Path to the .ipa file.
+    required: true
+  bundle-id:
+    description: Expected CFBundleIdentifier (optional).
+    required: false
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        ARGS=("${{ inputs.path }}")
+        if [ -n "${{ inputs.bundle-id }}" ]; then ARGS+=(--bundle-id "${{ inputs.bundle-id }}"); fi
+        node "${{ github.action_path }}/bin/ipa-check.mjs" "${ARGS[@]}"
