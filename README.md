@@ -1,5 +1,8 @@
 # ipa-check
 
+[![npm](https://img.shields.io/npm/v/%40njweber%2Fipa-check)](https://www.npmjs.com/package/@njweber/ipa-check) [![downloads](https://img.shields.io/npm/dm/%40njweber%2Fipa-check)](https://www.npmjs.com/package/@njweber/ipa-check) [![CI](https://github.com/nwebersoftware/ipa-check/actions/workflows/ci.yml/badge.svg)](https://github.com/nwebersoftware/ipa-check/actions/workflows/ci.yml)
+
+
 **Audit an iOS `.ipa` for common App Store submission pitfalls** — dependency-free, runs anywhere Node runs.
 
 Point it at a built `.ipa` and it tells you what will trip you up *before* App Store Connect does: a
